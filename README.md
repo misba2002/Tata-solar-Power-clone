@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tata Solar Power Website Clone 🌞
 
-## Getting Started
+## 📌 Project Overview
 
-First, run the development server:
+This project is a **responsive frontend clone of Tata Solar Power’s official website**, developed as part of an **internship project**. The goal was to replicate the design, layout, and user experience of a real-world enterprise website while following modern frontend development best practices.
+
+The project focuses on **performance, responsiveness, animations, and clean UI design**, closely mirroring an industry-grade product website.
+
+---
+
+## 🚀 Tech Stack
+
+* **Next.js** – Server-side rendering & optimized routing
+* **React.js** – Component-based UI development
+* **TypeScript** – Type safety and scalable codebase
+* **Tailwind CSS** – Utility-first responsive styling
+* **Framer Motion** – Smooth animations and transitions
+
+---
+
+## ✨ Features
+
+* Fully **responsive design** (mobile, tablet, desktop)
+* Modern **UI/UX inspired by Tata Solar Power website**
+* Smooth page and component animations using **Framer Motion**
+* Reusable and modular **React components**
+* Optimized performance with **Next.js**
+* Clean and maintainable **TypeScript-based code structure**
+
+---
+
+
+## 🛠️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone  https://github.com/misba2002/Tata-solar-Power-clone.git
+cd tata-solar-clone
+```
+
+### 2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 3️⃣ Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The app will be available at:
+👉 **[http://localhost:3000](http://localhost:3000)**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Screenshots
 
-## Learn More
+*(Adding)*
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Learning Outcomes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Hands-on experience with **Next.js and React ecosystem**
+* Implementing **real-world responsive layouts**
+* Using **Tailwind CSS for scalable styling**
+* Creating engaging UI animations with **Framer Motion**
+* Writing maintainable and type-safe code with **TypeScript**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚠️ Disclaimer
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is created **strictly for educational and internship purposes**.
+All design references, brand names, and assets belong to **Tata Power / Tata Solar**.
+
+---
+
+## 👤 Author
+
+**Misba bichhu**
+Frontend Developer Intern
+
+---
+
+## 📄 License
+
+This project is for **learning and demonstration purposes only** and is not intended for commercial use.
