@@ -5,6 +5,10 @@
   --foreground: #171717;
 }
 
+/* *{
+  outline: 1px solid green;
+} */
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -19,8 +23,73 @@
   }
 }
 
-body {
+.hide-scrollbar {
+  overflow-y: auto;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+html,body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+   overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.animate-slide-in {
+  animation: slideIn 2s ease-out forwards;
+}
+
+.center-item{
+  justify-items: center !important;
+  align-items: center !important;
+}
+
+@keyframes arrowFlow{
+  from{
+    color: #ffd402;
+    opacity: 1;
+  }
+  to{
+    color: white;
+    opacity: 0.5;
+  }
+}
+
+.animate-arrowFlow{
+  animation: arrowFlow 0.5s linear infinite;
+
+}
+
+.padding-custom{
+  padding-top: 80px !important;
+}
+
+
+@media(max-width:968px){
+ .padding-custom{
+  padding-top: 200px !important;
+ }
+
 }
